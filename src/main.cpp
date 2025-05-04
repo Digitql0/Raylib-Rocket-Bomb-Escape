@@ -1,6 +1,5 @@
 #include "raylib.h"
 #include "rocket.h"
-#include "betterRaylib.h"
 
 const int screenWidth = 1600;
 const int screenHeight = 800;

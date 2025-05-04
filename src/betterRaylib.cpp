@@ -7,6 +7,8 @@
 // Define global variables
 Vector2 translation = {0, 0};
 std::vector<Vector2> translations;
+Vector4 strokeColor = {0, 0, 0, 255};
+float weight = 1.0f;
 
 // Function implementations
 void Line(Vector2 start, Vector2 end)

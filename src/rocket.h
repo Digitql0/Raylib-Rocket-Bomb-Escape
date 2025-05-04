@@ -25,7 +25,7 @@ private:
     float turboTurning = 0.5;
     float angle;
     Color color = BLACK;
-    Color arrowColor = RAYWHITE;
+    Color arrowColor = GRAY;
 };
 
 #endif

@@ -59,7 +59,7 @@ void Rocket::show()
 
     push();
     translate(pos.x, pos.y);
-    stroke(color.r, color.g, color.b, color.a);
+    stroke(arrowColor.r, arrowColor.g, arrowColor.b, arrowColor.a);
     strokeWeight(5);
     Arrow({0, 0}, {sin(radianAngle) * arrowSize, -cos(radianAngle) * arrowSize}, 5);
     pop();
